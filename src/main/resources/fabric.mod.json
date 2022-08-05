@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "entitytest",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Entity Testing",
+  "description": "The mod simply aims to try out various entity types from living entities like hostile mobs or animals and projectile entities like snowballs and arrows",
   "authors": [
-    "Me!"
+    "Luke Scott"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "sources": "https://github.com/Luke270601/Entity-Test"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/entitytest/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.lukescott.entitytest.EntityTestMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "entitytest.mixins.json"
   ],
 
   "depends": {

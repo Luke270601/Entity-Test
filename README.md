@@ -1,9 +1,11 @@
-# Fabric Example Mod
+# Entity Testing Mod
 
-## Setup
+## Main Goals:
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- To experiment with different entity types i.e. animal, hostile mobs, arrows 
+- Create effects from those entities such as explosions or lightning strikes
+- Add new potion particle effects
+- Expand on previous armor/tool mod 
 
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+### Description
+Currently there is nothing substantial but the description will be updated as time goes on
