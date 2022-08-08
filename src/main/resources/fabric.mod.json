@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.lukescott.entitytest.EntityTestMod"
+    ],
+    "client": [
+      "net.lukescott.entitytest.EntityTestClientMod"
     ]
   },
   "mixins": [
