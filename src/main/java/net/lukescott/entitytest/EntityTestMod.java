@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.lukescott.entitytest.util.ModRegistries;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import software.bernie.geckolib3.GeckoLib;
 
 import java.rmi.registry.Registry;
 
@@ -24,5 +25,7 @@ public class EntityTestMod implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		ModRegistries.registerModStuffs();
+
+		GeckoLib.initialize();
 	}
 }
