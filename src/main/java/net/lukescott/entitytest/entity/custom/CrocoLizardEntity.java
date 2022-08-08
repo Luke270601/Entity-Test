@@ -26,7 +26,7 @@ import software.bernie.geckolib3.core.manager.AnimationFactory;
 public class CrocoLizardEntity extends AnimalEntity implements IAnimatable {
     private AnimationFactory factory = new AnimationFactory(this);
 
-    protected CrocoLizardEntity(EntityType<? extends AnimalEntity> entityType, World world) {
+    public CrocoLizardEntity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
 
@@ -54,11 +54,11 @@ public class CrocoLizardEntity extends AnimalEntity implements IAnimatable {
 
     private <E extends IAnimatable> PlayState predicate(AnimationEvent<E> event) {
         if (event.isMoving()) {
-            event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.raccoon.walk", true));
+            event.getController().setAnimation(new AnimationBuilder().addAnimation("walking", true));
             return PlayState.CONTINUE;
         }
 
-        event.getController().setAnimation(new AnimationBuilder().addAnimation("animation.raccoon.idle", true));
+        event.getController().setAnimation(new AnimationBuilder().addAnimation("idle", true));
         return PlayState.CONTINUE;
     }
 
