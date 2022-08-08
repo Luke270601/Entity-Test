@@ -8,7 +8,7 @@ import software.bernie.geckolib3.model.AnimatedGeoModel;
 import software.bernie.geckolib3.renderers.geo.GeoEntityRenderer;
 
 public class CrocoLizardRenderer extends GeoEntityRenderer<CrocoLizardEntity> {
-    public CrocoLizardRenderer(EntityRendererFactory.Context ctx, AnimatedGeoModel<CrocoLizardEntity> modelProvider) {
+    public CrocoLizardRenderer(EntityRendererFactory.Context ctx) {
         super(ctx, new CrocoLizardModel());
     }
 
