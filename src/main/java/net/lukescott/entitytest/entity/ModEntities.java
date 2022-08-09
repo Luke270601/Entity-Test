@@ -13,5 +13,5 @@ public class ModEntities {
     public static final EntityType<CrocoLizardEntity> CROCOLIZARD = Registry.register(
             Registry.ENTITY_TYPE, new Identifier(EntityTestMod.MOD_ID, "crocolizard"),
             FabricEntityTypeBuilder.create(SpawnGroup.CREATURE, CrocoLizardEntity::new)
-                    .dimensions(EntityDimensions.fixed(0.4f, 0.3f)).build());
+                    .dimensions(EntityDimensions.fixed(1.2f, 0.3f)).build());
 }
